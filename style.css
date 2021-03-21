@@ -1,0 +1,117 @@
+
+header img{width: 120px;
+           margin-left: 5rem;
+           margin-top: 2rem;}
+
+
+.headerblauw{background-color: #294697;
+             width: 100%;
+            padding: 1rem;
+            text-align: center;}
+
+.headerblauw h1{color: #fff;
+                text-align: center;
+                font-family: linotype-didot, serif;
+                font-weight: 400;
+                font-style: normal;
+                font-size: 5rem;
+                padding: 0 1rem;
+                letter-spacing: 1.5rem;}
+
+
+.headerblauw h2{color: #fff;
+                display: inline;
+                text-align: center;
+                font-family: linotype-didot, serif;
+                font-weight: 400;
+                font-style: normal;
+                font-size: 2rem;}
+.headerblauw h3{color: #fff;
+              display: inline;
+              font-family: linotype-didot, serif;
+              font-weight: 400;
+              font-style: italic;
+              font-size: 2rem;}
+
+.knokke_collage img{width:80%;
+                    margin:3rem;}
+
+.tekst h4{font-family: futura-pt-bold, sans-serif;
+          font-weight: 700;
+          font-style: normal;
+          color: #294697;
+          font-size: 3rem;
+          text-align: left;
+          margin-left: 3rem;}
+.tekst img{width: 33rem;
+           margin-left: 3rem;}
+
+.tekst p{font-family: helvetica;
+         color:#294697;
+        margin: 3rem;
+        font-size: 1.5rem;
+        line-height: normal;}
+
+.tekst b{font-weight: bold;
+        color:#294697;}
+
+.form{background-color: #dbf3fa;
+  font-family: futura-pt-bold, sans-serif;
+            font-weight: 700;
+            font-style: normal;
+            color: #294697;
+            font-size: 2rem;
+            text-align: center;
+            padding: 2rem;
+            }
+            ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+              color: #294697;
+              opacity: 1; /* Firefox */
+              font-family: helvetica;
+            }
+
+.button{background-color: #294697; border:none; color:white;padding: 0.5rem 3rem; margin: 2rem; font-family: helvetica;}
+h5 {font-family: linotype-didot, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 7rem;
+    font-style: italic;
+    line-height: 4rem;}
+h6{font-family: linotype-didot, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 7rem;
+    font-style: italic;}
+  .zomer{padding-top: 3rem; padding-bottom: 3rem;}
+.bijlage button{background-color:#10a5f5; border:none; color:white;padding: 0.5rem 3rem; margin: 1rem; text-align:center;}
+.bijlage{text-align: center;font-family: helvetica;}
+
+.magazinefoto{width: 37rem;;align-items: center; position: absolute; left:3rem;}
+.magazinespecial h4{font-family: futura-pt-bold, sans-serif;
+          font-weight: 700;
+          font-style: normal;
+          color: #fff;
+          font-size: 2.5rem;
+          text-align: left;
+          margin-left: 3rem;}
+.magazinespecial p{font-family: helvetica;
+         color:#fff;
+        margin: 3rem;
+        font-size: 1.5rem;
+        line-height: 2rem;
+        }
+
+.magazinespecial b{font-weight: bold; font-family: futura-pt-bold, sans-serif; font-weight: 700; font-style: normal;
+        color:#fff;}
+.magazinespecial{margin: 3rem; margin-top: 25rem;
+  background-color: #294697; /* For browsers that do not support gradients */
+  background-image: linear-gradient(#294697, #3fa9f5);
+  padding-top: 15rem;}
+hr{margin: 3rem; border-color: white; }
+.footer p{font-family: helvetica;
+         color:#294697;
+        margin: 3rem;
+        font-size: 1.2rem;
+        line-height: normal;
+        font-weight: bold;
+        text-align: center;}
