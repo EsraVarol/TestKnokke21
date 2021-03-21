@@ -137,8 +137,8 @@ hr{margin: 3rem; border-color: white; }
 @media (min-width: 1200px) {
 header{margin-left: 10rem; margin-right: 10%;}
 header a{font-size: 1rem;}
-.a1{position:absolute; top:16%; left: 8%;}
-.a2{position:absolute; top:16%; left: 9.5%;}
+.a1{position:absolute; top:10%; left: 8%;}
+.a2{position:absolute; top:10%; left: 9.5%;}
 .headerblauw{padding: 2rem;}
 header img{width: 200px;
            margin-left: 40%;
