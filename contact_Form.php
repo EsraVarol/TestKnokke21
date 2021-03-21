@@ -1,23 +1,15 @@
 <?php
-  $name = $_POST['name'];
-  $visitor_email = $_POST['email'];
-  $phone = $_POST['phone'];
+if (isset($_POST['submit'])){
+$name = $_POST['name'];
+$mailFrom = $_POST['mail'];
+$phone = $_POST['phone'];
 
-  $email_from ='esra.varol@student.ap.be'
 
-  $email_subject = 'Knokke Special Aanvraag'
+$mailTo = "esra.varol@student.ap.be";
+$headers = "From: ".$mailFrom;
 
-  $email_body = "User Name: $name.\n"
-                  "User Email: $visitor_email.\n"
-                    "User Phone: $phone.\n"
+mail($mailTo, $headers);
 
-  $to = "esra.varol@telenet.be";
-
-  $headers = "From: $email_from \r\n";
-
-  $headers .= "Reply-To $visitor_email \r\n"
-
-  mail($to,$email_subject,$email_body,$headers);
-
-  header("Location: index.html");
+header("Location: index.php?mailsend");
+}
 ?>
