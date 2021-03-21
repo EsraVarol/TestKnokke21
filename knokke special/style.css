@@ -70,7 +70,7 @@ header img{width: 120px;
               font-family: helvetica;
             }
 
-.button{background-color: #294697; border:none; color:white;padding: 0.5rem 3rem; margin: 2rem; font-family: helvetica;}
+.button{background-color: #294697; border:none; color:white;padding: 1rem 3rem; margin: 2rem; font-family: helvetica;}
 h5 {font-family: linotype-didot, serif;
     font-weight: 400;
     font-style: normal;
@@ -83,8 +83,12 @@ h6{font-family: linotype-didot, serif;
     font-size: 7rem;
     font-style: italic;}
   .zomer{padding-top: 3rem; padding-bottom: 3rem;}
-.bijlage button{background-color:#10a5f5; border:none; color:white;padding: 0.5rem 3rem; margin: 1rem; text-align:center;}
-.bijlage{text-align: center;font-family: helvetica;}
+
+.input{padding: 0.5rem;margin: 1rem; width: 30rem; border:none;}
+
+
+.bijlage button{background-color:#10a5f5; border:none; color:white;padding: 1rem 3rem; margin: 1rem; text-align:center;}
+.bijlage{text-align: center;font-family: helvetica; background-color: #fff}
 
 .magazinefoto{width: 37rem;;align-items: center; position: absolute; left:3rem;}
 .magazinespecial h4{font-family: futura-pt-bold, sans-serif;
